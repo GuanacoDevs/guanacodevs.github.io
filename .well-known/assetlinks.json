@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.guanacodevs.ubv",
+    "sha256_cert_fingerprints":
+    ["C2:D1:E7:E0:4D:01:83:E1:AB:67:1F:F6:70:B6:1F:7D:1B:EF:B9:E2:AD:43:DF:F4:C7:C9:A2:F9:4A:5A:E3:20"]
+  }
+}]
