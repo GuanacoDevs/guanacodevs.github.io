@@ -1,29 +1,187 @@
-body {
-    background-color: #CFD8DC;
-    margin: 0;
-}
-
-p {
-    text-align: justify
-}
-
-.title {
-    text-align: center;
-    text-decoration-line: underline;
-    color: white;
-    background-color: #455A64;
-    margin: 0;
-    font-size: 64px;
-}
-
-footer {
-    text-align: center;
-}
-
-.content {
-    font-size: 32px;
-    text-align: justify;
-    color: #455A64;
-    margin: 15px;
-
-}
+        html {
+            background: #CFD8DC;
+            background-image: linear-gradient(270deg, #b0bec5 0%, #CFD8DC 100%);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        p {
+            text-align: justify;
+            margin-top: 0
+        }
+        
+        .title {
+            position: relative;
+            top: 0;
+            text-align: center;
+            text-decoration-line: underline;
+            color: white;
+            background-color: #455A64;
+            margin: 0;
+            font-size: 4em;
+        }
+        
+        footer {
+            text-align: center;
+        }
+        
+        .content {
+            font-size: 2em;
+            text-align: justify;
+            color: #455A64;
+            margin: 15px;
+        }
+        
+        .phrase {
+            text-align: center;
+            font-size: 2em;
+            color: #455A64;
+            font-style: italic;
+            margin: 15px;
+        }
+        
+        #UBV {
+            margin: 0 auto;
+            max-width: 60%;
+            background: #fff;
+            box-shadow: 0 0 2px #455A64;
+        }
+        /*        This is Joking news only*/
+        
+        #jokes_site {
+            margin: 0;
+        }
+        
+        .joking_news {
+            display: inline-block;
+        }
+        
+        #left_column {
+            width: 15%;
+            position: fixed;
+            height: 100%;
+            margin: 0 1%
+        }
+        
+        #main_content {
+            width: 66%;
+            background: #fff;
+            margin-left: 17%;
+            box-shadow: 0 0 5px #455A64;
+            position:
+        }
+        
+        #right_column {
+            width: 15%;
+            height: 100%;
+            position: fixed;
+            float: left;
+            margin: 0 1%;
+        }
+        
+        #ads_column {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+            margin: auto;
+        }
+        /*        Navigation Menu*/
+        
+        .navigation_menu {
+            margin-top: 0;
+            padding: 1.0em;
+            font-size: 1.25em;
+            list-style-type: none;
+            background-color: #455A64;
+            border-radius: 15px;
+            box-shadow: 0.50em 0.5em 1.5em #455A64;
+        }
+        
+        li a {
+            color: white;
+            width: auto;
+            margin: .25em 0;
+            display: block;
+            font-size: 1.25em;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .active {
+            background-color: #607D8B;
+            border-radius: 10px;
+        }
+        
+        li a:hover {
+            background-color: #607D8B;
+            border-radius: 10px;
+        }
+        
+        .ad_unit {
+            margin: 5% 0;
+            box-shadow: 1.0em 1.0em 1.0em #455A64;
+        }
+        /*        Posts*/
+        
+        h4 {
+            background-color: #455A64;
+            color: white;
+            text-align: center;
+            border-radius: 5.0em;
+            font-size: 2.0em;
+            margin: .25em;
+        }
+        
+        .post_content {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+            padding: 0 1.0em;
+        }
+        
+        .post_content::first-letter {
+            font-size: 2.0em;
+        }
+        
+        .social_media_logos {
+            text-align: right;
+            margin-right: 2.5em;
+        }
+        
+        .post {
+            position: relative;
+            display: block;
+        }
+        
+        .hidden_content {
+            display: none;
+            position: sticky;
+        }
+        
+        .post:hover .hidden_content {
+            display: block;
+        }
+        /*        End Navigation Menu*/
+        
+        .main_message {
+            font-size: 1.5em;
+            text-align: center;
+            font-style: italic;
+            margin: .5em
+        }
+        
+        .banner_comercial {
+            margin: 0;
+            text-align: center;
+            background-color: #CFD8DC;
+        }
+        
+        .perma_ads {
+            margin: 1.0em 0;
+            padding: 0;
+            box-shadow: 0.50em 0.5em 1.5em #455A64;
+        }
