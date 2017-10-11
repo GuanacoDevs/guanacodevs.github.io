@@ -59,8 +59,11 @@
             width: 15%;
             position: fixed;
             height: 100%;
-            margin: 0 1%
-        }
+            margin: 0 1%;
+            overflow: auto;
+       
+        
+}
         
         #main_content {
             width: 66%;
@@ -76,6 +79,7 @@
             position: fixed;
             float: left;
             margin: 0 1%;
+            overflow: auto;
         }
         
         #ads_column {
@@ -160,6 +164,7 @@
         .hidden_content {
             display: none;
             position: sticky;
+            margin: 0;
         }
         
         .post:hover .hidden_content {
