@@ -1,6 +1,7 @@
         html {
             background: #CFD8DC;
             background-image: linear-gradient(270deg, #b0bec5 0%, #CFD8DC 100%);
+            font-family: 'Montserrat', sans-serif;
             -webkit-font-smoothing: antialiased;
         }
         
@@ -25,7 +26,7 @@
         }
         
         .content {
-            font-size: 2em;
+            font-size: 1.5em;
             text-align: justify;
             color: #455A64;
             margin: 15px;
@@ -33,7 +34,7 @@
         
         .phrase {
             text-align: center;
-            font-size: 2em;
+            font-size: 2.0em;
             color: #455A64;
             font-style: italic;
             margin: 15px;
