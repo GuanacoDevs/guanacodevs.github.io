@@ -61,9 +61,7 @@
             height: 100%;
             margin: 0 1%;
             overflow: auto;
-       
-        
-}
+        }
         
         #main_content {
             width: 66%;
@@ -190,3 +188,11 @@
             padding: 0;
             box-shadow: 0.50em 0.5em 1.5em #455A64;
         }
+        
+        .video {
+            text-align: center;
+        }
+
+.play_badge {
+    text-align: center;
+}
