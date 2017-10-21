@@ -7,8 +7,8 @@
             min-height: 100%;
             margin: 0;
             padding: 0;
-            -webkit-font-smoothing: antialiased;
         }
+
 
         p {
             text-align: justify;
@@ -23,7 +23,7 @@
             color: white;
             background-color: #455A64;
             margin: 0;
-            font-size: 400%;
+            font-size: 4.0vw;
         }
 
         footer {
@@ -34,6 +34,7 @@
             bottom: 0;
             width: inherit;
             text-align: center;
+            color: white;
 
         }
 
@@ -45,7 +46,7 @@
         }
 
         .content {
-            font-size: 150%;
+            font-size: 1.5vw;
             text-align: justify;
             color: #455A64;
             margin: 15px;
@@ -53,7 +54,7 @@
 
         .phrase {
             text-align: center;
-            font-size: 200%;
+            font-size: 2.0vw;
             color: #455A64;
             font-style: italic;
             margin: 15px;
@@ -64,6 +65,8 @@
             max-width: 60%;
             background: #fff;
             box-shadow: 0 0 2px #455A64;
+            margin-bottom: 2.0em;
+
         }
 
         /*        This is Joking news only*/
@@ -111,7 +114,7 @@
             text-align: center;
         }
 
-        h3 {
+        #time {
             text-align: center;
             margin: auto;
         }
@@ -224,3 +227,36 @@
         .play_badge {
             text-align: center;
         }
+
+        .UBV_footer {
+            width: auto;
+        }
+
+        #index_footer {
+            width: 60%;
+            text-align: center;
+        }
+
+        #index_footer_list {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #index_footer_list li {
+            display: inline-block;
+            margin: 0 .75em;
+        }
+
+
+    
+
+
+.legal_docs {
+    margin: 0 1% 2.0em 1%;
+}
+
+#legal_docs {
+    width: 98%;
+}

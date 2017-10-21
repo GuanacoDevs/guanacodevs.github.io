@@ -25,10 +25,12 @@
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+
     </script>
     <!--   JavaScript SDK-->
     <div id="left_column" class="joking_news">
         <ul class="navigation_menu">
+            <li><a class="active" href="#">Fake News</a></li>
             <li><a class="active" href="#">Fake News</a></li>
             <li><a href="#">Real News</a></li>
             <li><a href="#">No News</a></li>
@@ -45,7 +47,7 @@
     <div id="main_content" class="joking_news">
         <img src="/PICTURES/banner.png" alt="UBV" width="100%" height="100%">
         <p class="main_message">Without further addo,<br> "Let's get to the news!!!"</p>
-        <h3>October 10, 2017. </h3>
+        <h3 id="time">October 10, 2017. </h3>
         <div class="post">
             <h4>MIT Student</h4>
             <div class="hidden_content">
