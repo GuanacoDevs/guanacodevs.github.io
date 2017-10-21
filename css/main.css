@@ -198,9 +198,25 @@
         }
 
         .social_media_logos {
+            list-style-type: none;
             text-align: right;
+            padding: 0;
+            margin: 0;
+
         }
 
+        .social_media_logos li {
+            display: inline-block;
+            list-style-type: none;
+            top: 0;
+        }
+
+        .social_media_logos li a {    
+            vertical-align: middle;
+        }
+       .social_media_logos li div {    
+            vertical-align: middle;
+        }
         .post_left {
             float: left;
             display: inline-block;
@@ -216,6 +232,7 @@
             float: left;
             display: inline-block;
             width: 30%;
+            height: 100%;
             margin: 0 0 0 2.5%;
         }
 
@@ -344,3 +361,23 @@
             text-align: right;
             margin-right: 2.0vw;
         }
+
+/*
+        .twitter-share-button {
+          
+            vertical-align: middle;
+
+        }
+*/
+
+        .fb-like {
+            top: -6px;
+        }
+
+
+/*
+        .g-plus {
+
+            
+        }
+*/
