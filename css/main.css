@@ -180,7 +180,7 @@
 
         .post_content {
             font-size: 1.0vw;
-            margin: 0.5em 0;
+            margin: 1em 1em 1em 1em ;
             /*            padding: 0 1.0em;*/
         }
 
@@ -211,12 +211,14 @@
             top: 0;
         }
 
-        .social_media_logos li a {    
+        .social_media_logos li a {
             vertical-align: middle;
         }
-       .social_media_logos li div {    
+
+        .social_media_logos li div {
             vertical-align: middle;
         }
+
         .post_left {
             float: left;
             display: inline-block;
@@ -280,6 +282,7 @@
 
         .play_badge {
             text-align: center;
+            margin-bottom: 2em
         }
 
         .UBV_footer {
@@ -362,9 +365,9 @@
             margin-right: 2.0vw;
         }
 
-/*
+        /*
         .twitter-share-button {
-          
+
             vertical-align: middle;
 
         }
@@ -375,9 +378,9 @@
         }
 
 
-/*
+        /*
         .g-plus {
 
-            
+
         }
 */
