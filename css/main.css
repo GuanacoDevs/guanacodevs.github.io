@@ -10,7 +10,6 @@
             padding: 0;
         }
 
-
         p {
             text-align: justify;
             margin-top: 0
@@ -42,8 +41,6 @@
         footer a {
             text-decoration: none;
             color: white;
-
-
         }
 
         .content {
@@ -67,73 +64,7 @@
             background: #fff;
             box-shadow: 0 0 2px #455A64;
             margin-bottom: 2.0em;
-
         }
-
-        /*        This is Joking news only*/
-
-        #jokes_site {
-            margin: 0;
-        }
-
-        .joking_news {
-            display: inline-block;
-        }
-
-        #left_column {
-            width: 15%;
-            position: fixed;
-            height: 100%;
-            margin: 0 1%;
-            overflow: auto;
-        }
-
-        #main_content {
-            width: 66%;
-            background: #fff;
-            margin-left: 17%;
-            margin-right: 0;
-            margin-bottom: 2.0em;
-            box-shadow: 0 0 5px #455A64;
-
-        }
-
-        #right_column {
-            width: 15%;
-            height: 100%;
-            position: absolute;
-            float: left;
-            margin: 0 1%;
-            overflow: auto;
-        }
-
-        #ads_column {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            float: right;
-            text-align: center;
-        }
-
-        #time {
-            text-align: center;
-            margin: auto;
-            font-size: 1.20vw;
-        }
-
-        /*        Navigation Menu*/
-
-        .navigation_menu {
-            margin-top: 0;
-            padding: 1.0em;
-            font-size: 1.25em;
-            font-size: 1.25vw;
-            list-style-type: none;
-            background-color: #455A64;
-            border-radius: 15px;
-            /*            box-shadow: 0.50em 0.5em 1.5em #455A64;*/
-        }
-
 
         li a {
             color: white;
@@ -145,148 +76,39 @@
             text-align: center;
         }
 
-        .active {
-            background-color: #607D8B;
-            border-radius: 10px;
-        }
-
         li a:hover {
             background-color: #607D8B;
             border-radius: 10px;
         }
 
-        .ad_unit {
-            margin: 5% 0;
-            box-shadow: 5px 5px 5px #455A64;
-            width: 100%;
-
-        }
-
-        /*        Posts*/
-
-        h4 {
-            background-color: #455A64;
-            color: white;
-            text-align: center;
-            border-radius: 0 0 10px 10px;
-            font-size: 2.0vw;
-            margin: 0 0 .25em 0;
-        }
-
-        h4 a {
-            text-decoration: none;
-            color: white;
-        }
-
         .post_content {
             font-size: 1.0vw;
-            margin: 1em 1em 1em 1em ;
+            margin: 1em 1em 1em 1em;
             /*            padding: 0 1.0em;*/
-        }
-
-        .post_content a {
-            color: black;
-            text-decoration: none;
-        }
-
-        .post_content a::before:hover {
-            background-color: aqua;
         }
 
         .post_content::first-letter {
             font-size: 2.0vw;
         }
 
-        .social_media_logos {
-            list-style-type: none;
-            text-align: right;
-            padding: 0;
-            margin: 0;
-
-        }
-
-        .social_media_logos li {
-            display: inline-block;
-            list-style-type: none;
-            top: 0;
-        }
-
-        .social_media_logos li a {
-            vertical-align: middle;
-        }
-
-        .social_media_logos li div {
-            vertical-align: middle;
-        }
-
-        .post_left {
-            float: left;
-            display: inline-block;
-            width: 30%;
-            margin: 0 0 0 2.5%;
-        }
-
-        .post_left a {
-            text-decoration: none;
-        }
-
-        .post_center {
-            float: left;
-            display: inline-block;
-            width: 30%;
-            height: 100%;
-            margin: 0 0 0 2.5%;
-        }
-
-        .post_right {
-            float: left;
-            display: inline-block;
-            width: 30%;
-            margin: 0 2.5% 0 2.5%;
-        }
-
-        .hidden_content {
-            display: none;
-            position: sticky;
-            margin: 0;
-        }
-
-        .post:hover .hidden_content {
-            display: block;
-        }
-
-        /*        End Navigation Menu*/
-
-        .main_message {
-            font-size: 1.5vw;
-            text-align: center;
-            font-style: italic;
-            margin: .5em
-        }
-
-        .banner_comercial {
-            margin: 0;
-            text-align: center;
-            background-color: #CFD8DC;
-        }
-
-        .perma_ads {
-            margin: 1.0em 1.0em;
-            padding: 0;
-            /*            box-shadow: 0.50em 0.5em 1.5em #455A64;*/
-        }
-
         .video {
             text-align: center;
+            overflow: hidden;
+            /* padding-top: 56.25%; */
+            position: relative;
+        }
+        .video iframe{
+            border: 0;
+            /* height: 100%; */
+            left: 0;
+            /* position: absolute; */
+            top: 0;
+            max-width: 34%;
         }
 
         .play_badge {
             text-align: center;
             margin-bottom: 2em
-        }
-
-        .UBV_footer {
-            width: auto;
         }
 
         #index_footer {
@@ -308,79 +130,9 @@
 
         .legal_docs {
             margin: 0 1% 2.0em 1%;
+
         }
 
         #legal_docs {
             width: 98%;
         }
-
-        .right_column {
-            font-size: 1.25vw;
-            margin: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .thumbnail_article {
-            width: 100%;
-            height: 75%;
-            margin: 0 0 -4px 0;
-            overflow: hidden;
-        }
-
-        .thumbnail_article img {
-            width: 100%;
-            height: 75%;
-        }
-
-        .main_article_title {
-            border-radius: 10px 10px 0 0;
-
-        }
-
-        .main_article_content {
-            font-size: 2.0vw;
-            padding: 1.0em;
-        }
-
-        .main_article {
-            width: 100%;
-            text-align: center;
-
-        }
-
-        .main_article img {
-            width: 75%;
-            margin: 0 auto;
-        }
-
-        .ad_articles {
-            background-image: linear-gradient(90deg, #b0bec5 0%, #CFD8DC 100%);
-            display: inline-block;
-            width: 90%;
-            margin: .5em 5%;
-        }
-
-        .social_media_logos_main_article {
-            text-align: right;
-            margin-right: 2.0vw;
-        }
-
-        /*
-        .twitter-share-button {
-
-            vertical-align: middle;
-
-        }
-*/
-
-        .fb-like {
-            top: -6px;
-        }
-
-
-        /*
-        .g-plus {
-
-
-        }
-*/
